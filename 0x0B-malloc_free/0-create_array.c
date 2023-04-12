@@ -5,7 +5,6 @@
 /*
  * create_array - Creates an array of characters
  * and initializes it with a specific character.
- * main - takes two arguments and use the function create_array
  *
  * @size: The size of the array to be created.
  * @c: The character to initialize the array with.
@@ -34,6 +33,16 @@ char *create_array(unsigned int size, char c)
 	}
 	return (arr);
 }
+/*
+ * main - function to Create an array of chars,
+ * and initializes it with a specific char
+ *
+ * @argc: argument count
+ * @argv: argument vector
+ *
+ * Returns: 0 on success, 1 on error
+ */
+
 int main(int argc, char *argv[])
 {
 	if (argc != 3)
